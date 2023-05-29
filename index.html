@@ -1,29 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
-    <title>Inicio</title>
+    <title>Página Inicial</title>
 </head>
 <body>
         <header>
-            <span><em> Ponto Turístico </em></span>
             <nav>
                 <ul class="menu">
                     <li class="opc"><a href="html/cinema.html" class="opc">Cinema do Dragão</a></li>
                     <li class="opc"><a href="html/mapa.html" class="opc">Mapa</a></li>
                     <li class="opc"><a href="html/planetario.html" class="opc">Planetário</a></li>
+                    <button id="BtnAumentar">A+</button>
+                    <button id="BtnDiminuir">A-</button>
+                    <button id="Ingles" onclick="alterarParaIngles()">Inglês</button>
+
                 </ul>
             </nav>
         </header>
 
-  <h2><strong>O Centro Dragão do Mar</strong></h2>
+  <h2 class="texto"><strong>O Centro Dragão do Mar</strong></h2>
     
     
     
- <p>
+ <p class="texto">
 O Centro Dragão do Mar de Arte e Cultura é um complexo cultural da Secretaria da Cultura do Estado do Ceará que é gerido em parceria com o Instituto Dragão do Mar. 
 Com mais de 1,5 milhão de visitantes ao ano, está entre os mais relevantes centros culturais brasileiros e é um dos principais pontos turísticos do Ceará.
 O Centro Dragão do Mar está situado num dos mais boêmios bairros de Fortaleza, a Praia de Iracema. 
@@ -37,17 +40,20 @@ nacionais e internacionais, no Anfiteatro Sérgio Motta, no Auditório e na Pra�
 
  
 
-<p>Cerca de 90% da programação do Centro Dragão do Mar tem acesso gratuito ou preços simbólicos, com o objetivo de formar plateia nas diversas linguagens artísticas. 
+<p class="texto">Cerca de 90% da programação do Centro Dragão do Mar tem acesso gratuito ou preços simbólicos, com o objetivo de formar plateia nas diversas linguagens artísticas. 
     Essa programação reúne, de terça a domingo, apresentações em Circo, Teatro, Dança, Literatura, Fotografia, Performance, 
     Música, Cinema e Pontos de Cultura. Oferecendo opções de arte e cultura para cearenses e turistas, além da programação composta
     por eventos de produtores locais e nacionais.</p>
-
- 
-
-<h2><strong>23 anos de história</strong></h2>
-
- 
-<p>
+<ul class="ajeitar">
+    <li>
+        <div class="fotinhas"><img src="img/foto1.jpg" class="foto1"></div>
+    </li>
+    <li>
+        <div class="fotinhas"><img src="img/Foto6.jpg" class="foto2"></div>
+    </li>
+</ul>
+<h2 class="texto"><strong>23 anos de história</strong></h2>
+<p class="texto">
 A arquitetura do Centro Dragão do Mar se caracteriza por linhas arrojadas, concebidas pelos arquitetos cearenses Delberg Ponce de Leon e 
 Fausto Nilo. Inaugurado em 28 de abril de 1999, na antiga área portuária da Praia de Iracema, o Dragão do Mar possui hoje em seu entorno bares, 
 restaurantes, lojas de artesanato, teatros e outros centros de formação e cultura, como a Caixa Cultural, o Porto Dragão e a 
@@ -55,9 +61,18 @@ Escola Porto Iracema das Artes.
 </p>
 
  
-<p>
+<p class="texto">
 Espaço destinado ao encontro das pessoas, ao fomento e à difusão da arte e da cultura, o Centro Dragão do Mar foi idealizado, em 1993, 
 pelo então secretário da Cultura do Ceará, o jornalista e antropólogo Paulo Linhares, e o então governador do Estado do Ceará, Ciro Gomes.
     </p>
+
+<ul>
+    <li>
+        <div class="fotinhas"><img src="img/foto3.png" class="foto3"></div>
+    </li>
+    <div class="fotinhas"><img src="img/foto7.jpg" class="foto4"></div>
+</ul>
+    <script src="js/mudar_fonte.js"></script>
+    <script src="js/mudar_idioma.js"></script>
 </body>
 </html>

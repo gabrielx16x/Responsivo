@@ -5,8 +5,29 @@ body{
     font-family: 'Segoe UI', sans-serif;
     
 }
+
+button{
+    border: 4px solid black;
+    border-radius: 40px;
+    padding-left: 20px;   
+    padding-right: 20px;
+    margin-left: 21px;
+    margin-right: 21px;
+    margin-top: 12px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  
+    height: 52px;
+}
+.botaozin{
+    text-align: start;
+}
 ol,ul{
-    list-style: decimal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
     font-family: 'Segoe UI', sans-serif;
     font-size: 17.7px;
     margin-block-start: 1em;
@@ -17,14 +38,17 @@ ol,ul{
     margin-right: 21px;
 }
 
-.imagem1{
-    text-align: center;
+.foto1{
+    margin-right: 21px;
 }
-.imagem2{
-    text-align: center;
+.foto2{
+    margin-left: 21px;
 }
-.imagem3{
-    text-align: center;
+.foto3{
+    margin-right: 21px;
+}
+.foto4{
+    margin-left: 21px;
 }
 img{
     width: 612px;
@@ -33,7 +57,10 @@ img{
     border: 2px solid black;
 
 }
-
+.foto-abc{
+    border-radius: 331px;
+    margin-left: 41px;
+}
 p, h2{
     font-size: 20px;
     margin-bottom: 40px;
@@ -47,7 +74,9 @@ p, h2{
     margin-right: 21px;
     text-align:justify;
 }
-
+.fotinhas{
+    display: flex;
+}
 nav {
     position: relative;
     display: flex;
@@ -81,7 +110,7 @@ nav {
 	padding: 12px 16px;
 	text-decoration: none;
 	font-family: 'Segoe UI';
-    font-size: 15.5px;
+    font-size: 20.5px;
 }
 
 .opc:hover {
